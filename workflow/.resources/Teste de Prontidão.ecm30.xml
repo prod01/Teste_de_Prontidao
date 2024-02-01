@@ -1,0 +1,406 @@
+<list>
+  <ProcessDefinition>
+    <processDefinitionPK>
+      <companyId>1</companyId>
+      <processId>Teste de Prontidão</processId>
+    </processDefinitionPK>
+    <processDescription>Teste de Prontidão</processDescription>
+    <instruction></instruction>
+    <active>true</active>
+    <publicProcess>true</publicProcess>
+    <volumeId>Default</volumeId>
+    <categoryId></categoryId>
+    <managerEngineAllocationId></managerEngineAllocationId>
+    <snapshotFrequency>0</snapshotFrequency>
+    <baseDay>0</baseDay>
+    <baseMonth>0</baseMonth>
+    <periodId>Default</periodId>
+    <uniqueCardVersion>true</uniqueCardVersion>
+    <keyWord></keyWord>
+    <complementsLevel>1</complementsLevel>
+    <notifyRequisitionerComplements>true</notifyRequisitionerComplements>
+    <notifyManagerComplements>false</notifyManagerComplements>
+    <deadlineTime>0</deadlineTime>
+    <warningDeadlineTime>0</warningDeadlineTime>
+    <notifyAuthorityComplements>true</notifyAuthorityComplements>
+  </ProcessDefinition>
+  <ProcessDefinitionVersion>
+    <processDefinitionVersionPK>
+      <companyId>1</companyId>
+      <processId>Teste de Prontidão</processId>
+      <version>17</version>
+    </processDefinitionVersionPK>
+    <versionDescription></versionDescription>
+    <formId>0</formId>
+    <editionMode>true</editionMode>
+    <updateAttachmentsVersion>false</updateAttachmentsVersion>
+    <controlsAttachmentsSecurity>false</controlsAttachmentsSecurity>
+    <active>true</active>
+    <blockedVersion>false</blockedVersion>
+    <counterSign>false</counterSign>
+    <openInstances>0</openInstances>
+    <bpmnVersion>2</bpmnVersion>
+    <processStates/>
+    <favorito>false</favorito>
+    <inheritFormSecurity>false</inheritFormSecurity>
+    <mobileReady>true</mobileReady>
+  </ProcessDefinitionVersion>
+  <list>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Teste de Prontidão</processId>
+        <version>1</version>
+        <sequence>4</sequence>
+      </processStatePK>
+      <stateName>Start</stateName>
+      <stateDescription>Start</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>true</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>280</positionX>
+      <positionY>60</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>10</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>Teste de Prontidão</processId>
+        <version>1</version>
+        <sequence>5</sequence>
+      </processStatePK>
+      <stateName>End</stateName>
+      <stateDescription>End</stateDescription>
+      <instruction>Atividade final do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>0</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>308</positionX>
+      <positionY>186</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>6</stateType>
+      <bpmnType>60</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+  </list>
+  <list/>
+  <list>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>Teste de Prontidão</processId>
+        <version>1</version>
+        <linkSequence>6</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>4</initialStateSequence>
+      <finalStateSequence>5</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+  </list>
+  <list/>
+  <list>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>afterProcessCreate</eventId>
+        <processId>Teste de Prontidão</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function afterProcessCreate(processId){&#xd;
+	&#xd;
+	hAPI.setCardValue(&quot;IDCHAMADO&quot;, processId); //função que pega o numero do chamado do fluig &#xd;
+    log.info(&quot;IDCHAMADO: &quot; + processId)&#xd;
+    &#xd;
+}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>beforeTaskSave</eventId>
+        <processId>Teste de Prontidão</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function beforeTaskSave(sequenceId){&#xd;
+	log.info(&quot;Entrou beforeTaskSave:&quot;);&#xd;
+	var PERGUNTA_1 = hAPI.getCardValue(&quot;PERGUNTA_1&quot;);&#xd;
+	var PERGUNTA_2 = hAPI.getCardValue(&quot;PERGUNTA_2&quot;);&#xd;
+	var PERGUNTA_3 = hAPI.getCardValue(&quot;PERGUNTA_3&quot;);&#xd;
+	var PERGUNTA_4 = hAPI.getCardValue(&quot;PERGUNTA_4&quot;);&#xd;
+	var PERGUNTA_5 = hAPI.getCardValue(&quot;PERGUNTA_5&quot;);&#xd;
+	var PERGUNTA_6 = hAPI.getCardValue(&quot;PERGUNTA_6&quot;);&#xd;
+	var PERGUNTA_7 = hAPI.getCardValue(&quot;PERGUNTA_7&quot;);&#xd;
+	var idChamado = getValue(&quot;WKNumProces&quot;).toString()&#xd;
+	var funcao = hAPI.getCardValue(&quot;FUNCAO&quot;)&#xd;
+	&#xd;
+	 if (	&#xd;
+			PERGUNTA_1 == &apos;3&apos; || PERGUNTA_2 == &apos;3&apos; || PERGUNTA_3 == &apos;3&apos; || PERGUNTA_4 == &apos;3&apos; ||&#xd;
+			PERGUNTA_5 == &apos;3&apos; || PERGUNTA_6 == &apos;3&apos; || PERGUNTA_7 == &apos;3&apos; &#xd;
+			){ &#xd;
+				log.info(&quot;Entrou if &quot;);&#xd;
+				log.info(&quot;Entrou if &quot; + funcao);&#xd;
+				log.info(&quot;TESTE DE PRONTIDÃO &quot; + idChamado + &quot; - ALERTA VERMELHO &quot;);&#xd;
+				&#xd;
+				try{&#xd;
+					hAPI.setCardValue(&quot;STATUS&quot;,&quot;VERMELHO&quot;);&#xd;
+					log.info(&quot;Entrou TRY Envio de email Nota Emitida:&quot;);&#xd;
+					&#xd;
+				    //Monta mapa com parâmetros do template&#xd;
+				    var parametros = new java.util.HashMap();&#xd;
+				    &#xd;
+				  //Parametros que vão estar dentro do template &#xd;
+				    parametros.put(&quot;NOME&quot;, hAPI.getCardValue(&quot;NOME_COMPLETO&quot;));&#xd;
+				    parametros.put(&quot;CHAPA&quot;, hAPI.getCardValue(&quot;CHAPA&quot;));&#xd;
+				    parametros.put(&quot;FUNCAO&quot;, hAPI.getCardValue(&quot;FUNCAO&quot;));&#xd;
+				    parametros.put(&quot;SOLICITACAO&quot; , idChamado );&#xd;
+		&#xd;
+				    var assunto = &quot;TESTE DE PRONTIDÃO PGS-004633 - &quot; + idChamado + &quot; - ALERTA VERMELHO&quot;&#xd;
+				 &#xd;
+				    //Este parâmetro é obrigatório e representa o assunto do e-mail&#xd;
+				    parametros.put(&quot;subject&quot;, assunto);&#xd;
+				 &#xd;
+				    //Monta lista de destinatários&#xd;
+				    var destinatarios = new java.util.ArrayList();&#xd;
+			&#xd;
+			//		var EMAILCONSULTOR = hAPI.getCardValue(&quot;EMAILCONSULTOR&quot;);&#xd;
+					var EMAIL_SOLICITANTE = hAPI.getCardValue(&quot;EMAIL&quot;);&#xd;
+				    destinatarios.add(&quot;pedro.jesus@tradimaq.com.br&quot;);&#xd;
+				    destinatarios.add(&quot;renato@tradimaq.com.br&quot;);&#xd;
+				    destinatarios.add(&quot;arthur.evangelista@tradimaq.com.br&quot;);&#xd;
+				    destinatarios.add(&quot;gilson@tradimaq.com.br&quot;);&#xd;
+				    destinatarios.add(&quot;leonardo.leite@tradimaq.com.br&quot;);&#xd;
+				    destinatarios.add(&quot;testeprontidao@tradimaq.com.br&quot;);&#xd;
+				    destinatarios.add(EMAIL_SOLICITANTE);&#xd;
+		&#xd;
+				    //Envia e-mail&#xd;
+				    notifier.notify(&quot;008310&quot;, &quot;028&quot;, parametros, destinatarios, &quot;text/html&quot;);&#xd;
+			&#xd;
+					log.info(&quot;Email Nota Emitida enviado!&quot;);&#xd;
+				 &#xd;
+				} catch(e){&#xd;
+				    log.info(&quot;Erro ao enviar email Nota Emitida: &quot; + e);&#xd;
+			}&#xd;
+		} else if (	&#xd;
+			PERGUNTA_1 == &apos;2&apos; || PERGUNTA_2 == &apos;2&apos; || PERGUNTA_3 == &apos;2&apos; || PERGUNTA_4 == &apos;2&apos; ||&#xd;
+			PERGUNTA_5 == &apos;2&apos; || PERGUNTA_6 == &apos;2&apos; || PERGUNTA_7 == &apos;2&apos;  &#xd;
+			){ &#xd;
+				log.info(&quot;Entrou if &quot;);&#xd;
+				log.info(&quot;TESTE DE PRONTIDÃO - ALERTA lARANJA&quot;);&#xd;
+				try{&#xd;
+					hAPI.setCardValue(&quot;STATUS&quot;,&quot;lARANJA&quot;);&#xd;
+					log.info(&quot;Entrou TRY Envio de email Nota Emitida:&quot;);&#xd;
+					&#xd;
+				    //Monta mapa com parâmetros do template&#xd;
+				    var parametros = new java.util.HashMap();&#xd;
+				    &#xd;
+				  //Parametros que vão estar dentro do template &#xd;
+				    parametros.put(&quot;NOME&quot;, hAPI.getCardValue(&quot;NOME_COMPLETO&quot;));&#xd;
+				    parametros.put(&quot;CHAPA&quot;, hAPI.getCardValue(&quot;CHAPA&quot;));&#xd;
+				    parametros.put(&quot;FUNCAO&quot;, hAPI.getCardValue(&quot;FUNCAO&quot;));&#xd;
+				    parametros.put(&quot;SOLICITACAO&quot; , idChamado );&#xd;
+				    &#xd;
+				    &#xd;
+				    var assunto = &quot;TESTE DE PRONTIDÃO PGS-004633 - &quot; + idChamado + &quot; - ALERTA LARANJA&quot;&#xd;
+				 &#xd;
+				    //Este parâmetro é obrigatório e representa o assunto do e-mail&#xd;
+				    parametros.put(&quot;subject&quot;, assunto);&#xd;
+				 &#xd;
+				    //Monta lista de destinatários&#xd;
+				    var destinatarios = new java.util.ArrayList();&#xd;
+			&#xd;
+			//		var EMAILCONSULTOR = hAPI.getCardValue(&quot;EMAILCONSULTOR&quot;);&#xd;
+					var EMAIL_SOLICITANTE = hAPI.getCardValue(&quot;EMAIL&quot;);&#xd;
+				    destinatarios.add(&quot;pedro.jesus@tradimaq.com.br&quot;);&#xd;
+				    destinatarios.add(&quot;renato@tradimaq.com.br&quot;);&#xd;
+				    destinatarios.add(&quot;arthur.evangelista@tradimaq.com.br&quot;);&#xd;
+				    destinatarios.add(&quot;gilson@tradimaq.com.br&quot;);&#xd;
+				    destinatarios.add(&quot;leonardo.leite@tradimaq.com.br&quot;);&#xd;
+				    destinatarios.add(&quot;testeprontidao@tradimaq.com.br&quot;);&#xd;
+				    destinatarios.add(EMAIL_SOLICITANTE);&#xd;
+		&#xd;
+				    //Envia e-mail&#xd;
+				    notifier.notify(&quot;008310&quot;, &quot;027&quot;, parametros, destinatarios, &quot;text/html&quot;);&#xd;
+			&#xd;
+					log.info(&quot;Email Nota Emitida enviado!&quot;);&#xd;
+				 &#xd;
+				} catch(e){&#xd;
+				    log.info(&quot;Erro ao enviar email Nota Emitida: &quot; + e);&#xd;
+			}&#xd;
+		} else if (	&#xd;
+				PERGUNTA_1 == &apos;1&apos; || PERGUNTA_2 == &apos;1&apos; || PERGUNTA_3 == &apos;1&apos; || PERGUNTA_4 == &apos;1&apos; ||&#xd;
+				PERGUNTA_5 == &apos;1&apos; || PERGUNTA_6 == &apos;1&apos; || PERGUNTA_7 == &apos;1&apos;&#xd;
+				){ &#xd;
+					log.info(&quot;Entrou if &quot;);&#xd;
+					log.info(&quot;TESTE DE PRONTIDÃO - ALERTA AMARELO&quot;);&#xd;
+					try{&#xd;
+						hAPI.setCardValue(&quot;STATUS&quot;,&quot;AMARELO&quot;);&#xd;
+						log.info(&quot;Entrou TRY Envio de email Nota Emitida:&quot;);&#xd;
+						&#xd;
+					    //Monta mapa com parâmetros do template&#xd;
+					    var parametros = new java.util.HashMap();&#xd;
+					    &#xd;
+					  //Parametros que vão estar dentro do template &#xd;
+					    parametros.put(&quot;NOME&quot;, hAPI.getCardValue(&quot;NOME_COMPLETO&quot;));&#xd;
+					    parametros.put(&quot;CHAPA&quot;, hAPI.getCardValue(&quot;CHAPA&quot;));&#xd;
+					    parametros.put(&quot;FUNCAO&quot;, hAPI.getCardValue(&quot;FUNCAO&quot;));&#xd;
+					    parametros.put(&quot;SOLICITACAO&quot; , idChamado );&#xd;
+			&#xd;
+					    var assunto = &quot;TESTE DE PRONTIDÃO PGS-004633 - &quot; + idChamado + &quot; - ALERTA AMARELO&quot;&#xd;
+					 &#xd;
+					    //Este parâmetro é obrigatório e representa o assunto do e-mail&#xd;
+					    parametros.put(&quot;subject&quot;, assunto);&#xd;
+					 &#xd;
+					    //Monta lista de destinatários&#xd;
+					    var destinatarios = new java.util.ArrayList();&#xd;
+				&#xd;
+				//		var EMAILCONSULTOR = hAPI.getCardValue(&quot;EMAILCONSULTOR&quot;);&#xd;
+						var EMAIL_SOLICITANTE = hAPI.getCardValue(&quot;EMAIL&quot;);&#xd;
+					    destinatarios.add(&quot;pedro.jesus@tradimaq.com.br&quot;);&#xd;
+					    destinatarios.add(&quot;renato@tradimaq.com.br&quot;);&#xd;
+					    destinatarios.add(&quot;arthur.evangelista@tradimaq.com.br&quot;);&#xd;
+					    destinatarios.add(&quot;gilson@tradimaq.com.br&quot;);&#xd;
+					    destinatarios.add(&quot;leonardo.leite@tradimaq.com.br&quot;);&#xd;
+					    destinatarios.add(&quot;testeprontidao@tradimaq.com.br&quot;);&#xd;
+					    destinatarios.add(EMAIL_SOLICITANTE);&#xd;
+			&#xd;
+					    //Envia e-mail&#xd;
+					    notifier.notify(&quot;008310&quot;, &quot;026&quot;, parametros, destinatarios, &quot;text/html&quot;);&#xd;
+				&#xd;
+						log.info(&quot;Email Nota Emitida enviado!&quot;);&#xd;
+					 &#xd;
+					} catch(e){&#xd;
+					    log.info(&quot;Erro ao enviar email Nota Emitida: &quot; + e);&#xd;
+				}&#xd;
+			}&#xd;
+}</eventDescription>
+    </WorkflowProcessEvent>
+  </list>
+  <list/>
+  <list>
+    <SwimLane>
+      <color>FFFFFF</color>
+      <height>290</height>
+      <width>831</width>
+      <positionX>10</positionX>
+      <positionY>10</positionY>
+      <stateName>Teste de Prontidão</stateName>
+      <type>1</type>
+      <parentSequence>0</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>Teste de Prontidão</processId>
+        <version>1</version>
+        <sequence>1</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>9F9F9F</color>
+      <height>145</height>
+      <width>801</width>
+      <positionX>40</positionX>
+      <positionY>10</positionY>
+      <stateName>Inicio</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>Teste de Prontidão</processId>
+        <version>1</version>
+        <sequence>2</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>C0C0C0</color>
+      <height>145</height>
+      <width>801</width>
+      <positionX>40</positionX>
+      <positionY>155</positionY>
+      <stateName>Fim</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>Teste de Prontidão</processId>
+        <version>1</version>
+        <sequence>3</sequence>
+      </swimLanePK>
+    </SwimLane>
+  </list>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+</list>
